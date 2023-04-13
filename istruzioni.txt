@@ -1,0 +1,7 @@
+1) Estrarre il contenuto dello zip in una cartella vuota, assicurandosi che il nome della stessa non presenti spazi o caratteri speciali;
+
+2) Aprire la cartella all'interno di VS Code;
+
+3) Aprire il terminale selezionando la cartella ed eseguire il comando "npm install", che si occuperà di installare tutte le dipendenze e i pacchetti utilizzati creando la cartella "node_modules";
+
+4) Una volta terminato avviare con il comando "npm start".
