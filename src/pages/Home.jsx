@@ -1,6 +1,7 @@
 import React from 'react'
 import Input from '../components/Input'
 import Api from '../components/Api'
+import ApiAxios from '../components/ApiAxios'
 
 function Home() {
   return (
@@ -10,6 +11,7 @@ function Home() {
             <div className="col-sm-6 offset-sm-3">
               <Input />
               <Api/>
+              <ApiAxios/>
             </div>
           </div>
         </div>

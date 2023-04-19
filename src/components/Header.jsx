@@ -22,7 +22,8 @@ function Navbar() {
               <Link className='nav-link mx-2' to="/about">About</Link>
             </li>
             <li className="nav-item d-none d-lg-block">
-              <img className='nav-link mx-2' src={logo} height="60" alt='logo' />
+              
+              <Link className='nav-link mx-2' to="/"><img className='nav-link mx-2' src={logo} height="60" alt='logo' /></Link>
             </li>
             <li className="nav-item">
               <Link className='nav-link mx-2' to="/about">About</Link>

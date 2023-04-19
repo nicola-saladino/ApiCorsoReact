@@ -27,17 +27,14 @@ function Input() {
     return (
         
         <>
-
+            <div className="container">
             <ul class="list-group list-group-flush">
             <li class="list-group-item">
             <Lista lista={lista} />
             </li>
             </ul>
-
-
-            <Lista lista={lista} />
-
             <br />
+            </div>
             
     <div className="row justify-content-center">
         <div className="col-md-8 mt-2 text-center">
